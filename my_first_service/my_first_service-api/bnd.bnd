@@ -1,0 +1,10 @@
+Bundle-Name: my_first_service-api
+Bundle-SymbolicName: my_first_service.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	my_first_service.exception,\
+	my_first_service.model,\
+	my_first_service.service,\
+	my_first_service.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../my_first_service-service/service.xml
